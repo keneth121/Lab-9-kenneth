@@ -1,58 +1,37 @@
-/* Centrando todo */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 20px;
     background-color: #f4f4f4;
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Centra horizontalmente */
-    text-align: center; /* Centra el texto */
 }
 
-/* Estilo del encabezado */
 header {
-    background-color: #ff0000;
+    background-color: #007BFF;
     color: white;
-    width: 100%;
+    text-align: center;
     padding: 1em;
 }
 
-/* Estilo de la navegación */
-nav ul {
+ nav{
+    margin: 20px;
+
+}
+nav ul li{
+    display: inline;
+    margin-rigth: 10px
+
+}
+nav ul{
     list-style-type: none;
     padding: 0;
-    margin: 0;
 }
-
-nav ul li {
-    display: inline-block;
-    margin: 0 10px;
+main{
+    margin: 20px;
 }
-
-nav ul li a {
-    text-decoration: none;
-    color: #ff0000;
-    font-weight: bold;
-}
-
-/* Estilo principal */
-main {
-    margin: 20px 0;
-    width: 80%; /* Opcional, para limitar el ancho del contenido */
-}
-
-/* Estilo de las imágenes */
-main img {
-    display: block;
-    margin: 20px auto; /* Centra la imagen */
-}
-
-/* Estilo del pie de página */
-footer {
-    background-color: #ff0000;
+footer{
+    background-color: #007BFF;
     color: white;
-    width: 100%;
-    padding: 1em;
-    position: relative;
-}
+    text-align: center;
+    padding:  1em;
+
+} 
