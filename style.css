@@ -1,30 +1,33 @@
+/* Centrando todo */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 20px;
+    padding: 0;
     background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente */
+    text-align: center; /* Centra el texto */
 }
 
+/* Estilo del encabezado */
 header {
     background-color: #007BFF;
     color: white;
-    text-align: center;
+    width: 100%;
     padding: 1em;
 }
 
-nav {
-    margin: 20px;
-    text-align: center;
-}
-
+/* Estilo de la navegación */
 nav ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 10px;
+    display: inline-block;
+    margin: 0 10px;
 }
 
 nav ul li a {
@@ -33,18 +36,23 @@ nav ul li a {
     font-weight: bold;
 }
 
+/* Estilo principal */
 main {
-    margin: 20px;
+    margin: 20px 0;
+    width: 80%; /* Opcional, para limitar el ancho del contenido */
 }
 
-main .image-container {
-    text-align: center; /* Centra la imagen */
-    margin-top: 20px;
+/* Estilo de las imágenes */
+main img {
+    display: block;
+    margin: 20px auto; /* Centra la imagen */
 }
 
+/* Estilo del pie de página */
 footer {
     background-color: #007BFF;
     color: white;
-    text-align: center;
+    width: 100%;
     padding: 1em;
+    position: relative;
 }
